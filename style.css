@@ -1,0 +1,88 @@
+
+body{
+  font-family: "Manjari", sans-serif;
+  font-style: normal;
+  }
+.contenedor{
+  background-color:#F7FF55;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1200 800'%3E%3Cdefs%3E%3CradialGradient id='a' cx='0' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23ffad4d'/%3E%3Cstop offset='1' stop-color='%23ffad4d' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='b' cx='1200' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%235fff69'/%3E%3Cstop offset='1' stop-color='%235fff69' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='c' cx='600' cy='0' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23b457ff'/%3E%3Cstop offset='1' stop-color='%23b457ff' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='d' cx='600' cy='800' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23F7FF55'/%3E%3Cstop offset='1' stop-color='%23F7FF55' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='e' cx='0' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23FF4B45'/%3E%3Cstop offset='1' stop-color='%23FF4B45' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='f' cx='1200' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%2369F4FF'/%3E%3Cstop offset='1' stop-color='%2369F4FF' stop-opacity='0'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='1200' height='800'/%3E%3Crect fill='url(%23b)' width='1200' height='800'/%3E%3Crect fill='url(%23c)' width='1200' height='800'/%3E%3Crect fill='url(%23d)' width='1200' height='800'/%3E%3Crect fill='url(%23e)' width='1200' height='800'/%3E%3Crect fill='url(%23f)' width='1200' height='800'/%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;;
+  width: 250px;
+  height: 480px;
+  display: grid;
+  margin: auto;
+  padding: 10px;
+  margin-top: 70px;
+  border: 8px solid rgba(27, 26, 26, 0.767);
+  border-radius: 8px;
+  justify-items: auto;
+}
+h1{
+  height: 30px;
+  font-size: medium;
+  font-weight: bold;
+  margin-left: 10px; 
+}
+.periodicidad{
+    display: flex;
+    height: 40px;
+    font-size: x-small;
+    font-weight: bold;
+    padding: 10px;
+    justify-content: space-between;    
+}
+.cajita{
+  width: 50px;
+  height: 30px;
+  background-color: rgb(146, 240, 240);
+  border-radius: 10px;
+  position: relative;
+}
+.p2{
+  position: absolute;
+  margin-left: 60px;
+}
+
+.dia{
+  width: 230px;
+  height: 90px;
+  margin: auto;
+  /* border: 1px solid rgb(133, 125, 125); */
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.p3{
+font-size: x-small;
+font-weight: bold;
+/* margin-bottom: 0px; */
+}
+.p4{
+  font-size: large;
+  font-weight: bolder;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.p5{
+  font-size: small;
+  font-weight: bolder;
+  margin-top: 0px;
+}
+.los4{
+  display: grid;
+  grid-template-columns: 50% 50%; 
+}
+.pasos, .dormir, .corazon, .intensidad{
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  /* border: 1px solid rgb(133, 125, 125); */
+  border-radius: 5px;
+  text-align: center; 
+}
+.pasos, .dormir, .corazon, .intensidad, .dia{
+  box-shadow: 0 0 15px 0 rgb(224, 178, 178);
+}
